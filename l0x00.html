@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Toggle Menu Example</title>
+<style>
+  /* تنسيق القائمة */
+  .menu {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+    font-size: 17px;
+  }
+  
+  /* تنسيق العناصر المخفية */
+  .hidden {
+    display: none;
+  }
+  
+  body{
+    background-color: black;
+  }
+</style>
+</head>
+<body>
+
+<!-- عنوان القائمة -->
+<h2 class="menu" onclick="toggleMenu()">0x00 Programming "Nl"</h2>
+
+<!-- قائمة الفقرات المخفية -->
+<div id="menuItems" class="hidden">
+  <ul>
+    <li><a href="#" onclick="toggleSubMenu('arSubMenu')">0x00 Programming "Nl"</a></li>
+    <ul id="arSubMenu" class="hidden">
+      <li><a href="arduinonl.html">
+        <ul>
+        <li>Hoe een programmeertaal te ontwerpen die door de machine begrepen wordt</li>
+        </ul>
+      </a></li>
+      <li><a href="#">Sub Item 2</a></li>
+      <li><a href="#">Sub Item 3</a></li>
+    </ul>
+    
+    <li><a href="#" onclick="toggleSubMenu('arSubMenu')">0x00 Programming "Ar"</a></li>
+    <ul id="arSubMenu" class="hidden">
+      <li><a href="#">Sub Item 1</a></li>
+      <li><a href="#">Sub Item 2</a></li>
+      <li><a href="#">Sub Item 3</a></li>
+    </ul>
+    <li><a href="#" onclick="toggleSubMenu('enSubMenu')">0x00 Programming "En"</a></li>
+    <ul id="enSubMenu" class="hidden">
+      <li><a href="#">Sub Item A</a></li>
+      <li><a href="#">Sub Item B</a></li>
+      <li><a href="#">Sub Item C</a></li>
+    </ul>
+    <li><a href="#" onclick="toggleSubMenu('frSubMenu')">0x00 Programming "Fr"</a></li>
+    <ul id="frSubMenu" class="hidden">
+      <li><a href="#">Sous-élément 1</a></li>
+      <li><a href="#">Sous-élément 2</a></li>
+      <li><a href="#">Sous-élément 3</a></li>
+    </ul>
+  </ul>
+</div>
+
+<script>
+function toggleMenu() {
+  var menuItems = document.getElementById("menuItems");
+  if (menuItems.classList.contains("hidden")) {
+    menuItems.classList.remove("hidden");
+  } else {
+    menuItems.classList.add("hidden");
+  }
+}
+
+function toggleSubMenu(subMenuId) {
+  var subMenu = document.getElementById(subMenuId);
+  if (subMenu.classList.contains("hidden")) {
+    subMenu.classList.remove("hidden");
+  } else {
+    subMenu.classList.add("hidden");
+  }
+}
+</script>
+
+</body>
+</html>

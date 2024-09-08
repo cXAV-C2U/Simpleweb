@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <meta http-equiv='Domain-Port' content='192.168.0.17:2767'>
+
+<title>Terminal Login</title>
+
+
+
+<link rel="stylesheet" type="text/css" href="Page_Login.css">
+</head>
+<body>
+  
+  <img src="">
+
+<div class="terminal">
+
+<form id="loginForm">
+
+<input type="text" id="username" placeholder="Username" required>
+
+<input type="password" id="password" placeholder="Password" required>
+
+<button type="submit">Login</button>
+
+</form>
+
+<div id="message"></div>
+
+</div>
+
+<script src="Page_LoginSc.js"></script>
+</body>
+</html>
+
+
+
+
+
+<html>
+<head>
+
+
+
+<style>
+
+#cloc{
+
+  font-size: 28px;
+
+  color: black;
+
+  background-color: #f0f0f0;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+
+  width : 100%;
+  
+}
+
+
+body{
+
+font-family: 'Arial', sans-serif;
+
+align-items: center;
+background-color: #282c34;
+
+color: white;
+
+
+
+}
+
+#clock {
+  color: white;
+  align-items: center;
+font-size: 191px;
+position: relative;
+text-align: center;
+animation: clock 1s infinite;
+opacity: 79%;
+
+}
+
+@keyframes clock{
+  
+  0% { background-color: black; }
+
+50% { background-color: blueshadow; }
+
+100% { background-color: blueshadow; }
+}
+
+
+
+</style>
+</head>
+<body class="bodyp">
+
+<div id="clock"></div>
+
+<script>
+
+function updateClock() {
+
+const now = new Date();
+
+const hours = String(now.getHours()).padStart(2, '0');
+
+const minutes = String(now.getMinutes()).padStart(2, '0');
+
+const seconds = String(now.getSeconds()).padStart(2, '0');
+
+const timeString = `${hours}:${minutes}:${seconds}`;
+
+document.getElementById('clock').textContent = timeString;
+
+}
+
+setInterval(updateClock, 1000);
+
+updateClock(); // initial call to display clock immediately
+
+</script>
+</body>
+</html>
+
+<html>
+  <head>
+  <body>
+    
+<div class="navbar">
+
+  <a href="#">home</a>
+
+  <a href="#">About</a>
+
+  <a href="#">Service</a>
+
+  <a href="#">Contact</a>
+
+</div>
+
+<head>
+<body>
+  <nav class="menuu">
+
+  <ul>
+    <li class="Su_Contact">
+
+      <a href="#">Home</a>
+
+      <ul>
+
+        <li><a href="l0x00.html">0x00</a></li>
+        <li><a href="#">0x00</a></li>
+        <li><a href="#">0x00</a></li>
+        <li><a href="#">0x00</a></li>
+
+      </ul>
+
+    </li>
+  </ul>
+</nav>
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+
+<!-- Multi-Level Nested Menu Structure -->
+<nav class="menu">
+
+  <ul></ul>
+        </li>
+
+      </ul>
+
+    </li>
+
+  </ul>
+</nav>
+</body>
+</head>
+
+
+</head>
+
+<body>
+  
+
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+
+<title>Setting Domain and Port</title>
+</head>
+<body>
+
+
+</body>
+</html>
+

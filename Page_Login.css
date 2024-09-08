@@ -1,0 +1,252 @@
+.terminal {
+
+width: 300px;
+
+margin: 50px auto;
+
+padding: 20px;
+
+border: 1px solid #ccc;
+
+background-color: #000;
+background-image: url("Photo/Interface_Image.jpg");
+
+
+color: #fff;
+}
+
+input, button {
+
+margin: 5px 0;
+
+padding: 5px;
+
+width: 100%;
+
+box-sizing: border-box;
+
+background-size: cover;
+background-image: url("Photo/Interface_Image.jpg");
+
+
+}
+
+button {
+
+background-color: #007bff;
+
+color: white;
+opacity: 19%;
+
+border: none;
+
+cursor: pointer;
+}
+
+#message {
+
+margin-top: 0px;
+}
+
+body{
+  background-image: url("Photo/Interface_Image.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  color: #000;
+  width: 100%;
+}
+
+button{
+
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.7pt);
+}
+
+button {
+
+  transition: box-shadow 0.3s ease;
+}
+
+button:hover {
+
+  box-shadow: 0 0 10px rgba(255, 22, 62, 0.7);
+}
+
+.navbar {
+
+  float:  center;
+
+  overflow: hidden;
+  
+
+}
+
+.navbar a {
+
+  float: center ;
+
+  display: center;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 199px 89px;
+
+  text-decoration: none;
+  
+  background-clip: 12px;
+
+}
+
+.navbar a:hover {
+
+  background-color: #ddd;
+
+  color: black;
+  
+ text-align: center;
+}
+
+/* CSS for Styling the Menu Bar */
+.menu {
+
+  
+}
+
+.menu ul {
+
+}
+
+.menu li {
+
+  float: left;
+}
+
+.menu li a {
+
+  display: block;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 14px 16px;
+
+  text-decoration: none;
+}
+
+.menu li a:hover {
+
+  background-color: #111;
+}
+
+/* Styling for Submenu */
+
+
+.menu .Su_Home ul {
+
+  display: none;
+
+  position: right;
+
+  background-color: #333;
+}
+
+.menu .Su_Home:hover ul {
+
+  display: inline-flex;
+  display: inline-block;
+  display: inline-flexbox;
+  background-color: white;
+
+  
+}
+/* CSS for Styling the Menu Bar */
+.menuu {
+
+  
+}
+
+.menuu ul {
+
+  list-style-type: none;
+
+  margin: 0;
+
+  padding: 0;
+
+  overflow: hidden;
+}
+
+.menuu li {
+
+text-align: center;
+color: black;
+}
+
+.menuu li a {
+
+  display: block;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 54px 116px;
+
+  text-decoration: none;
+  
+}
+
+@keyframes parce{
+  
+  /* deuur durteung Gp cG */
+}
+
+.menuu li a:hover {
+
+  
+  
+  background-color: black;
+  
+  
+}
+
+@keyframes dull{
+  
+  20%{background-color: white;}
+  
+}
+
+.menuu .Su_Contact ul {
+
+  display: none;
+  position: center;
+  text-align: center;
+  background-color: #333;
+  animation : par 0.2s infinite;
+  
+  
+}
+
+@keyframes par{
+  
+  20%{background-: url("/Photo/Interface_Image.jpg");}
+}
+
+.menuu .Su_Contact:hover ul {
+
+  display: inline-flex;
+  display: inline-block;
+  display: inline-flexbox;
+  background-color: white;
+  background-color: black;
+  animation: dull 0.2s infinite
+  
+
+  
+}
+
